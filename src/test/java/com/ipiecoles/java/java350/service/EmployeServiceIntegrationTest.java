@@ -26,7 +26,7 @@ public class EmployeServiceIntegrationTest {
     @Mock
     private EmployeRepository employeRepository;
 
-    @Test
+  /*  @Test
     public void testEmbauchePremierEmploye() throws EmployeException {
         //Given Pas d'employés en base
         String nom = "Doe";
@@ -50,7 +50,7 @@ public class EmployeServiceIntegrationTest {
         Assertions.assertThat(employe.getDateEmbauche()).isEqualTo(LocalDate.now());
         Assertions.assertThat(employe.getMatricule()).isEqualTo("T00001");
     }
-
+*/
     @Test
     public void testEmbaucheLimiteMatricule() {
         //Given Pas d'employés en base
